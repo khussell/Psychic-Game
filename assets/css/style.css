@@ -1,0 +1,41 @@
+body{
+    background-color: #0d070b;
+    width: 100%;
+    height: 800px;
+}
+
+
+
+h1{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 7px;
+}
+
+section{
+    position: relative; 
+    width: 975px;
+    height: 650px;
+    margin: 0 auto;
+    
+}
+
+img{
+    margin: 0 auto;
+    height: 650px;
+}
+
+.content{
+    background-color: #fefefe;
+    color: purple;
+    text-align: center;
+    width: 200px;
+    height: 195px;
+    font-family: 'Germania One', cursive;
+    position:absolute;
+    top: 390px;
+    left: 420px;
+    letter-spacing: 2;
+
+}
