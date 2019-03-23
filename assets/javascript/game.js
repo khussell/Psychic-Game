@@ -29,12 +29,15 @@ document.onkeyup= function(event){
     lossesText.textContent= "Losses: " + losses
     guessesLeft= 9
     guessesLeftText.textContent="Guesses Left: " + guessesLeft
+    guessesSoFar=""
     guessesSoFarText.textContent="Guessed Already: none"   
    } else if(userGuess === computerLetter){
     wins += 1
     winsText.textContent="Wins: " + wins
     guessesLeft=9
     guessesLeftText.textContent= "Guesses Left: "+ guessesLeft
+    guessesSoFar= ""
+    guessesSoFarText.textContent= "Guessed Already: none"
     }else{
         guessesLeft-= 1
         guessesLeftText.textContent="Guesses Left: "+ guessesLeft
