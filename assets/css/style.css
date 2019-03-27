@@ -4,8 +4,6 @@ body{
     height: 800px;
 }
 
-
-
 h1{
     font-size: 25px;
     font-weight: bold;
@@ -17,8 +15,7 @@ section{
     position: relative; 
     width: 975px;
     height: 650px;
-    margin: 0 auto;
-    
+    margin: 0 auto;    
 }
 
 img{
@@ -38,7 +35,6 @@ img{
     left: 420px;
     letter-spacing: 2;
     font-size: 20px;
-
 }
 
 @media screen and (max-width: 735px){
@@ -54,7 +50,6 @@ h1{
  img{
      height:350px;
  }
-
 
  .content{
      top:210px;
