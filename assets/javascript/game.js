@@ -68,6 +68,7 @@ var game={
 
 //start of game
 document.onkeyup= function(event){
+  if(letterChoices.indexOf(event.key)>=0){
    userGuess=event.key
 
    if(guessesLeft === 9){
@@ -81,4 +82,5 @@ document.onkeyup= function(event){
    }else{
        game.wrongGuess()
    }
+  }
 }
